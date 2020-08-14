@@ -10,7 +10,7 @@ namespace PipelinesLib
     {
         public string SayFoo()
         {
-            return "foo";
+            return "foobar";
         }
     }
 }
