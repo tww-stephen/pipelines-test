@@ -1,5 +1,4 @@
-﻿using PipelinesLib;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,7 +15,7 @@ namespace PipelinesWeb.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = new Foo().SayFoo();
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
